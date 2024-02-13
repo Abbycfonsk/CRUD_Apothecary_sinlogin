@@ -1,6 +1,6 @@
 @extends ('layout')
 @section('contenido')
-            <div class='row animated fadeIn slow'>
+            <div class='row animated fadeIn slow' style="display:flex; flex-direction:row-reverse">
                 <div class='column col-8'>
                     <form id='formulario' action="{{route('planta.alta')}}" method='post' enctype="multipart/form-data">
                         @csrf

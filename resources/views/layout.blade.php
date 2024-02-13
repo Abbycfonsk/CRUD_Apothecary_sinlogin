@@ -10,9 +10,6 @@
 </head>
 <body>
     <main class='animated fadeIn slow'>
-        <div class="logo">
-        <img src="{{'/img/Slogo.png'}}">
-        </div>
 
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark mb-3">
             <div class="container-fluid">
@@ -22,8 +19,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" aria-current="page" href="{{route('vista.plantas')}}">Plantas Medicinales</a>
-                        <a class="nav-link" href="{{route('vista.alta')}}">Alta Planta Medicinal</a>
+                        <a class="nav-link" aria-current="page" href="{{route('vista.plantas')}}">Listado Plantas</a>
+                        <a class="nav-link" href="{{route('vista.alta')}}">Alta nueva Planta</a>
                     </div>
                 </div>
             </div>

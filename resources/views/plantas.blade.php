@@ -29,9 +29,11 @@
                 </div>
                 @else
                     @foreach ($plantas as $planta)
-                        <div class="card" style="border-radius:0; background-color:#F8F9F9">
+                        <div class="card" style="border-radius:0px; margin:2px">
+                            <div class="foto">
+                                <img class="card-img-top" style= "padding-top: 5px" src='{{asset("/img/$planta[img]")}}'>
+                            </div>
 
-                            <img class="card-img-top" style= "padding-top: 5px" src='{{asset("/img/$planta[img]")}}'>
                             <hr>
                             <div class="card-body">
 

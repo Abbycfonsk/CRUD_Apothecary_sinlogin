@@ -3,7 +3,17 @@ img {width: 100%; display: block; margin:auto;}
 footer {text-align: center;}
 img.miniatura {width: 100px;}
 tr {vertical-align: middle;}
+.imginicio{
+    width: 500px;
+}
+.card{
+    display:flex;
+    flex-direction: row;
+    width: 400px;
+    border-left-style: none;
+    border-bottom-style: none;
 
+}
 nav.navbar {
     position: sticky;
     top:0px;

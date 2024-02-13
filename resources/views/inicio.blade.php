@@ -1,4 +1,4 @@
 @extends('layout')
 @section('contenido')
-         <img src="{{'/img/portada1.jpg'}}" class="animated fadeIn slow">
+         <img src="{{'/img/SLogo.png'}}" class="imginicio">
 @endsection

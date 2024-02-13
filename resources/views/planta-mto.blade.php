@@ -3,7 +3,7 @@
 
             <div class='row animated fadeIn slow'>
                 <div class='column col-8'>
-                    <div class="card m-auto">
+                    <div class="card m-auto" style="width:800px">
                         <form id='formulario' action="{{route('planta.mantenimiento',[old('id') ?? $planta->id ?? null])}}" method="post"  enctype="multipart/form-data">
                             @method('PUT')
                             @csrf
